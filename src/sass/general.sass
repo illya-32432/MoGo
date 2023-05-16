@@ -1,0 +1,134 @@
+// zero
+html
+    font-size: 1px
+body
+    margin: 0
+ul,
+li,
+ol
+    list-style: none
+a
+    text-decoration: none
+// header
+.container
+    padding: 0 20rem
+    @media screen and (min-width: 575px)
+        padding: 0
+header
+    background: linear-gradient(rgba(231, 129, 130, .9), rgba(241, 215, 138, .9)), url(../img/bg-orel.png)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+.menu
+    a
+        font-size: 14px
+        text-transform: uppercase
+        color: #ffffff
+        font-weight: 400
+        font-family: "Montserrat"
+        text-align: center
+        transition: .8s
+        padding-bottom: 10rem
+        border-bottom: 2px solid transparent
+        &:hover
+            color: #fce38a
+            transition: .8s
+            border-bottom: 2px solid #fce38a
+.logo
+    font-size: 30rem
+    color: #ffffff
+    font-weight: 700
+    font-family: "Montserrat"
+//////// Burger
+.burger
+    position: absolute
+    width: 40rem
+    height: 40rem
+    top: 0
+    right: 0rem
+    cursor: pointer
+.burger span,
+.burger:before,
+.burger:after
+    content: ""
+    position: absolute
+    width: 40rem
+    height: 5rem
+    top: 20rem
+    border-radius: 25rem
+    background-color: #fff
+.burger:before
+    top: 10rem
+.burger:after
+    top: 30rem
+.menu
+    display: none
+.social
+    display: none
+.active-burger
+    padding-top: 30rem
+    text-align: center
+    display: block
+.social-open
+    display: block
+//////////////////
+.column-gap
+    column-gap: 20rem
+    @media screen and (min-width: 992px)
+        column-gap: 35rem
+.header-menu
+    position: relative
+.header-top
+    padding-top: 30rem
+.header-main-block 
+    padding-top: 180rem
+h2
+    font-size: 72px
+    color: #ffffff
+    font-weight: 400
+    font-family: "Kaushan Script"
+    text-align: center
+h1
+    font-size: 55rem
+    text-transform: uppercase
+    color: #ffffff
+    font-weight: 700
+    padding-top: 40rem
+    font-family: "Montserrat"
+    text-align: center
+    padding-bottom: 70rem
+    position: relative
+    display: flex
+    justify-content: center
+    @media screen and (min-width: 375px)
+        font-size: 65rem
+    @media screen and (min-width: 475px)
+        font-size: 75rem
+    @media screen and (min-width: 528px)
+        font-size: 85rem
+    @media screen and (min-width: 768px)
+        font-size: 100rem
+    @media screen and (min-width: 1000px)
+        font-size: 150rem
+h1:after
+    content: ""
+    position: absolute
+    width: 60rem
+    height: 3rem
+    bottom: 0
+    background-color: #fff
+.button
+    font-size: 14rem
+    text-transform: uppercase
+    color: #ffffff
+    font-weight: 700
+    font-family: "Montserrat"
+    padding: 16rem 35rem
+    margin: 65rem 0
+    display: inline-block
+    border: 3px solid #fff
+    transition: .7s
+    &:hover
+        background-color: #fff
+        color: #333
+        transition: .7s
