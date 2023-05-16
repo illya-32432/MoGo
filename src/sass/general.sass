@@ -15,7 +15,7 @@ a
     @media screen and (min-width: 575px)
         padding: 0
 header
-    background: linear-gradient(rgba(231, 129, 130, .9), rgba(241, 215, 138, .9)), url(../img/bg-orel.png)
+    background: linear-gradient(rgba(231, 129, 130, .9), rgba(241, 215, 138, .9)), url(../img/bg-orel.jpg)
     background-size: cover
     background-repeat: no-repeat
     background-position: center
@@ -39,6 +39,20 @@ header
     color: #ffffff
     font-weight: 700
     font-family: "Montserrat"
+.social
+    a
+        img:hover
+            animation: jumpingIcon .5s ease-in-out forwards
+
+@keyframes jumpingIcon 
+    0%
+        transform: translate(0, 0) rotate(0) scale(1)
+    33%
+        transform: translate(-3rem, -6rem) rotate(-5deg) scale(1.03)
+    66%
+        transform: translate(0, -3rem) rotate(0) scale(1.06)
+    100%
+        transform: translate(1rem, -5rem) rotate(5deg) scale(1.1)
 //////// Burger
 .burger
     position: absolute
